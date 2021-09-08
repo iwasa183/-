@@ -16,7 +16,7 @@ def f(n):
 	return fn
 
 num=19
-plt.title("Fourier")
+plt.title("FourierSeriesExpansion")
 plt.plot(t, x(1), color=(1.0,0.0,0.0), linewidth=1.0, label="a1")
 plt.plot(t, x(3), color=(0.0,1.0,0.0), linewidth=1.0, label="a3")
 plt.plot(t, x(5), color=(0.0,0.0,1.0), linewidth=1.0, label="a5")
