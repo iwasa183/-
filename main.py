@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 
 t = np.linspace(0,3,400)
 
-print(t.shape)
 def x(n):
 	return 4/(n*np.pi)*np.sin(2*np.pi*n*t)
 
@@ -16,7 +15,7 @@ def f(n):
 		fn += x(i)
 	return fn
 
-num=3
+num=19
 plt.title("Fourier")
 plt.plot(t, x(1), color=(1.0,0.0,0.0), linewidth=1.0, label="a1")
 plt.plot(t, x(3), color=(0.0,1.0,0.0), linewidth=1.0, label="a3")
